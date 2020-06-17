@@ -14,5 +14,15 @@
         <li>Cálculo de IMC
         <li>Cálculo de aposentadoria
     </ul>
+    <li>Desafio 1-2
+    <ul>
+        <li>Construção e Impressão
+        <li>Vetores e Objetos
+    </ul>
+    <li>Desafio 1-3
+    <ul>
+        <li>Procurar tecnologia
+        <li>Saldo e Despesas
+    <ul>
 </ul>
 
