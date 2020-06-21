@@ -1,0 +1,41 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    height: 600px;
+    border: 4px solid #2b2b2b;
+    transition: 400ms;
+}
+
+#starter:hover {
+    border: 4px solid purple ;
+}
+
+#launch:hover {
+    border: 4px solid orange;
+}
+
+#gostack:hover {
+    border: 4px solid green;
+}
+
+.card-img {
+    margin: auto;
+}
+
+.card-img img {
+    transition: 400ms;
+}
+
+.card-img img:hover {
+    transform: translateY(-10px); 
+}
