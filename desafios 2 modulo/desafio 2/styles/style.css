@@ -73,6 +73,7 @@ footer nav a {
     justify-content: space-between;
     margin: auto;
     transition: 300ms;
+    margin-bottom: 50px;
 }
 
 

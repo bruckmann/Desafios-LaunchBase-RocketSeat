@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="conteudo.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="styles/conteudo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 2-1 LaunchBase</title>
 </head>
@@ -20,29 +20,31 @@
         </nav>
     </header>
 
-    <div class="cards">
-        <div class="card" id="starter">
-            <div class="card-img" >
-                <img src="assets/starter.svg" alt="Starter">
+    <div class="container">
+        <div class="cards">
+            <div class="card" id="starter">
+                <div class="card-img" >
+                    <img src="assets/starter.svg" alt="Starter">
+                </div>
+                <div class="card-content">
+                    <p><span> Seja um programador desejado</span><br>no mercado com esses cursos gratuitos</p>
+                </div>
             </div>
-            <div class="card-content">
-
+            <div class="card" id="launchbase">
+                <div class="card-img" >
+                    <img src="assets/launcbase.svg" alt="Starter">
+                </div>
+                <div class="card-content">
+                        <p><span>Domine a programação do zero</span> e tenha acesso ás melhores oportunidades no mercado</p>
+                </div>
             </div>
-        </div>
-        <div class="card" id="launch">
-            <div class="card-img" >
-                <img src="assets/launcbase.svg" alt="Starter">
-            </div>
-            <div class="card-content">
-
-            </div>
-        </div>
-        <div class="card" id="gostack">
-            <div class="card-img" >
-                <img src="assets/gostack.svg" alt="Starter">
-            </div>
-            <div class="card-content">
-
+            <div class="card" id="gostack">
+                <div class="card-img" >
+                    <img src="assets/gostack.svg" alt="Starter">
+                </div>
+                <div class="card-content">
+                    <p><span>Treinamento imersivo</span> nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+                </div>
             </div>
         </div>
     </div>
@@ -61,5 +63,18 @@
         </nav>
     </footer>
     
+
+    <div class="modal active">
+        <div class="content">
+            <span>
+                <img src="assets/minimize-2.svg" alt="Close" id="fechar">
+            </span>
+        
+            <iframe src=""  width="100%" height="100%" frameborder="0"></iframe>
+        
+        </div>
+    </div>
+
+    <script src="scripts/modal.js"></script>
 </body>
 </html>

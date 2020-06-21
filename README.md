@@ -7,7 +7,7 @@
  <br>
  <p>O repósitorio seguira a ordem cronologica dos desafios, postados assim que eu consiga termina-los.</p>
  <p>No momento os seguintes desafios já estão concluídos:</p>
- <p>Fase 02</p>
+ <p>Modulo 1</p>
 <ul>
     <li>Desafio 1-1
     <ul>
@@ -29,6 +29,10 @@
             <li>Transações Bancárias 
         </ul>
     </li>
-    
 </ul>
-
+<p>Modulo 2<p>
+<ul>
+    <li>Desafio 2-1</li>
+    <li>Desafio 2-2</li>
+    <li>Desafio 2-3</li>
+</ul>
