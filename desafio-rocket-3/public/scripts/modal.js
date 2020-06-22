@@ -8,11 +8,10 @@ for (let card of cards) {
 
     const pageid = card.getAttribute('id');
     card.addEventListener("click" , () => {
-    modal.classList.add("active")
-    iframe.src=`https://rocketseat.com.br/${pageid}`
+        const id = card.getAttribute('id')
+        window.location.href=`/cursos/:id`
+
     })
-    closer.addEventListener("click" , () => {
-    modal.classList.remove("active")
-    iframe.src = ""
-    })
+    
+
 }
