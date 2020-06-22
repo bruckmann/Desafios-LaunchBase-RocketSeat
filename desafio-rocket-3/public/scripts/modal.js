@@ -9,7 +9,7 @@ for (let card of cards) {
     const pageid = card.getAttribute('id');
     card.addEventListener("click" , () => {
         const id = card.getAttribute('id')
-        window.location.href=`/cursos/:id`
+        window.location.href=`/cursos/${id}`
 
     })
     

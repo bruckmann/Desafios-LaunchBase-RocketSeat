@@ -1,4 +1,5 @@
 .card {
+    text-align: center;
     width: 400px;
     height: 600px;
     display: flex;
@@ -11,19 +12,33 @@
     width: 100%;
 }
 
-.card span {
-    color: #785cc4;
-}
 
 .card p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     margin-top: 50px;
     color: white
 }
 
 .card a {
-    color: white;
+    margin-top: 30px;
     font-size: 15px;
     text-decoration: none;
+    transition: 200ms;
+}
+
+.card a:hover {
+    transform: translateY(-7px);
+}
+
+#starter {
+    color: #785cc4 ;
+}
+
+#gostack {
+    color: #04d361;
+}
+
+#launchbase {
+    color: #ff941c;
 }

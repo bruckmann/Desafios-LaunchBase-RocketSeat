@@ -6,13 +6,14 @@
 
 {% block content %}
 
-    <div class="card" id="{{cursos.id}}">
+    <div class="card" id="{{item.id}}">
         <div class="card-img" >
-            <img src="{{cursos.imgUrl}}" alt="{{cursos.id}}">
+            <img src="{{item.imgUrl}}" alt="{{item.id}}">
         </div>
         <div class="card-content">
-            {{cursos.description}}
+            {{item.description}}
         </div>
+        <a href="https://rocketseat.com.br/{{item.id}}" target="__blank" id="{{item.id}}">Abrir site</a>
     </div>
 
 {% endblock content %}

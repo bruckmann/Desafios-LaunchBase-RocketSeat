@@ -12,6 +12,6 @@ module.exports = [
     {
         id: "gostack",
         description: '<p><span>Treinamento imersivo</span> nas tecnologias mais modernas de desenvolvimento web e mobile</p>',
-        imgUrl: "assets/gostack.svg"
+        imgUrl: "/assets/gostack.svg"
     }
 ]
