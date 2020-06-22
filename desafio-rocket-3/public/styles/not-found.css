@@ -1,0 +1,15 @@
+.mensagem {
+    text-align: center;
+}
+
+.mensagem h1 {
+    color: white;
+    margin-top: 200px;
+    font-size: 100px;
+}
+
+.mensagem img {
+    margin-top: 60px;
+    margin-bottom: 160px;
+    width: 150px;
+}

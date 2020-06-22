@@ -1,0 +1,57 @@
+{% extends "layout.njk" %}
+
+{% block styles %}
+    <link rel="stylesheet" href="styles/conteudo.css">
+{% endblock styles %}
+
+{% block title %}
+        <title>Cursos</title>
+{% endblock title %}
+
+{% block content %}
+    <div class="container">
+        <div class="cards">
+            <div class="card" id="starter">
+                <div class="card-img" >
+                    <img src="assets/starter.svg" alt="Starter">
+                </div>
+                <div class="card-content">
+                    <p><span> Seja um programador desejado</span><br>no mercado com esses cursos gratuitos</p>
+                </div>
+            </div>
+            <div class="card" id="launchbase">
+                <div class="card-img" >
+                    <img src="assets/launcbase.svg" alt="Starter">
+                </div>
+                <div class="card-content">
+                        <p><span>Domine a programação do zero</span> e tenha acesso ás melhores oportunidades no mercado</p>
+                </div>
+            </div>
+            <div class="card" id="gostack">
+                <div class="card-img" >
+                    <img src="assets/gostack.svg" alt="Starter">
+                </div>
+                <div class="card-content">
+                    <p><span>Treinamento imersivo</span> nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
+{% block modal %}
+    <div class="modal">
+        <div class="content">
+            <span>
+                <img src="assets/minimize-2.svg" alt="Close" id="fechar">
+            </span>
+        
+            <iframe src=""  width="100%" height="100%" frameborder="0"></iframe>
+        
+        </div>
+    </div>
+{% endblock modal %}
+
+{% block scripts %}
+    <script src="scripts/modal.js"></script>
+{% endblock scripts %}
